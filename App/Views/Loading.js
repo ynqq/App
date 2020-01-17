@@ -8,10 +8,11 @@ import {
 
 class App extends Component{
 
-    componentDidMount(){
-        setTimeout(() => {
-            this.props.navigation.navigate('RouteList')
-        }, 2000);
+  componentDidMount(){
+    this.props.navigation.navigate('RouteList')
+        // setTimeout(() => {
+        //     this.props.navigation.navigate('RouteList')
+        // }, 2000);
     }
 
   render(){

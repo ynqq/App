@@ -13,16 +13,10 @@ class App extends Component{
       <View>
         <TouchableOpacity   onPress={() => {
           console.log(this.props)
-          this.props.navigation.navigate('BarHomeChildOne')
-        }}>
-        <Text>Home</Text>
-        </TouchableOpacity>
-        <TouchableOpacity   onPress={() => {
-          console.log(this.props)
-          // this.props.navigation.navigate('DrawerHome')
+          // this.props.navigation.navigate('BarHomeChildOne')
           this.props.navigation.toggleDrawer()
         }}>
-        <Text>Home</Text>
+        <Text>DrawerHome</Text>
         </TouchableOpacity>
       </View>
     )

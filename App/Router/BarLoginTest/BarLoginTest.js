@@ -71,6 +71,16 @@ export default createBottomTabNavigator(
                     }
                 },
             }
+        },
+        tabBarOptions: {
+            style: {
+                backgroundColor: 'orchid',
+                
+            },
+            activeTintColor: "red",
+            activeBackgroundColor: "orange",
+            inactiveBackgroundColor: "#000",
+            inactiveTintColor: "#fff"
         }
     }
 )
